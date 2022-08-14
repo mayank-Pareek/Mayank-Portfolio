@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main-flex">
+        <div class="main-image">
+          <img src="./image.jpeg" alt="image.." />
+        </div>
+        <div class="intro">
+          <h1>Hi! I am <span>Mayank Kumar</span>,</h1>
+          <h1>A <span>Web Developer</span></h1>
+          <a href="./resume.pdf" download="Resume_Mayank"><button id="resumeBtn">Resume</button></a>
+         <button id="contactBtn">Contact Me</button>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <section>
+        <div class="about" id="about">
+          <h1>About <span>me</span></h1>
+          <br />
+          <pre>
+      
+      <strong>Age</strong>                   :  21
+      <strong>Email</strong>                :  mkumar87@myseneca.ca
+      <strong>Language</strong>       :  English, Hindi
+      <strong>Class Section</strong> :  NEE
+      <strong>Student Id</strong>       :  145998217
+      <strong>Instructor</strong>        :  Mr. Noman Atique
+    </pre>
+
+          <p>
+            Aspiring front-end web developer with knowledge of HTML, CSS and
+            JavaScript. Learning to build website and web-based applications
+            that would solve real-life problems helping thousands of people.
+          </p>
+          <br />
+          <br />
+          <h3>Honest Statement</h3>
+          <br />
+          <p>
+            I declare that this assessment is wholly my own work in accordance
+            with Seneca Academic Policy. No part of this has been
+            copied manually or electronically from any other source (including
+            web sites) except for the information supplied by the WEB222
+            instructors and / or made available in this assessment for my use. I
+            also declare that no part of this assessment has been distributed to
+            other students.
+            <br />
+            <br />
+            <strong>Date:</strong> 14-August-2022
+          </p>
+          <br />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="education" id="education">
+        <h1>My Educational <br /><span>Qualifications</span></h1>
+        <p>
+          I was born and brought-up in India and I have attained majority of my
+          studies in my home-country. After graduating from High School, I
+          decided to pursue my further studies in Canada and therefore I became
+          a student of Seneca College, Toronto. Here, I am pursuing a
+          undergraduate diploma in Computer Programming.
+        </p>
+        <div class="edu">
+          <div class="education-div flex div-1">
+            <h3>CPP Diploma</h3>
+            <h4>Seneca College (2022-2023)</h4>
+            Toronto, Canada
+            <br />
+            <p>Expected CGPA: 3.6</p>
+          </div>
+          <div class="education-div flex div-2">
+            <h3>12th Standard</h3>
+            <h4>GMSSS School (2018-2019)</h4>
+            Sirsa, India
+            <br />
+            <p>CGPA: 8.4/10</p>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+
+      <br /><br /><br />
+<hr>
+      <section class="contact" id="contact">
+        <h1>Contact <span>Me!</span></h1>
+        <div class="box flex">
+          <form id="form">
+            <label for="name">Name:</label><br>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John Doe"
+              required
+            /><br /><br />
+            <label for="email">E-mail:</label><br>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="john@example.com"
+              required
+            /><br /><br />
+            <label for="address">Address:</label><br>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Street Address"
+              required
+            /><br /><br />
+            <label for="city">City:</label><br>
+            <input list="cities" placeholder="ABC" required/>
+            <datalist id="cities">
+              <option value="London"></option>
+              <option value="Halifax"></option>
+              <option value="Laval"></option>
+              <option value="Surrey"></option>
+              <option value="Quebec City"></option>
+              <option value="Hamilton"></option>
+              <option value="Vancouver"></option>
+              <option value="Winnipeg"></option>
+              <option value="Mississauga"></option>
+              <option value="Edmonton"></option>
+              <option value="Ottawa"></option>
+              <option value="Calgary"></option>
+              <option value="Montreal"></option>
+              <option value="Toronto"></option></datalist
+            ><br /><br />
+            <label for="postal">Postal Code:</label><br>
+            <input
+              type="text"
+              id="postal"
+              name="postal"
+              placeholder="A1B 2C3"
+              pattern="[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d"
+              title="Please enter valid Canadian Postal Code"
+              required
+            /><br /><br />
+            <h2>What's your <span>Query!</span></h2>
+            <div class="query">
+            <input type="radio" id="question" name="query" value="question">
+  <label for="question">Question</label><br>
+  <input type="radio" id="comment" name="query" value="comment">
+  <label for="comment">Comment</label><br>
+  <input type="radio" id="hiring" name="query" value="hiring">
+  <label for="hiring">Hiring</label><br>
+</div>
+<div class="wage">
+  <label  for="rate">Expected Hourly Wage(in CAD):</label><br>
+  <input
+    type="text"
+    id="rate"
+    name="rate"
+    placeholder="XX.XX"
+
+  /><br /><br /></div>
+  <label  for="message">Please enter your query below:</label><br>
+  <textarea name="message" rows="6" cols="30">
+    </textarea><br><br>
+    <label for="homepage">Drop your LinkedIn:</label><br>
+    <input type="url" id="homepage" name="homepage">
+  <input type="submit" id="submit" value="Send" />
+          </form>
+        </div>
+      </section>
+      
+    <script src="./script.js"></script>
+  </body>
+</html>
