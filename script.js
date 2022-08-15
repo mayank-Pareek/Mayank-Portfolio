@@ -4,13 +4,6 @@ contactBtn.onclick = function () {
   window.location.href = "#contact";
 };
 
-//Resume Download
-// var resume = document.querySelector("#resumeBtn");
-// resumeBtn.onclick = function () {
-//   window.location.href =
-//     "https://drive.google.com/uc?export=download&id=14qxy01MEkJUhOlQFsxoRqc4gI-4VSRuv";
-// };
-
 //Hiring form
 var wage = document.querySelector(".wage");
 let hire = document.querySelector("#hiring");

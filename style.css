@@ -15,12 +15,6 @@ body {
   background-color: #454343;
 }
 
-/* @media screen and (min-width: 800px) {
-  .container {
-    margin: 1em 2em;
-  }
-} */
-
 .container {
   max-width: 1024px;
   align-content: center;
@@ -235,4 +229,89 @@ span {
   font-weight: 600;
   cursor: pointer;
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin-left: 0%;
+    font-size: small;
+  }
+  .container header {
+    padding: 10px 60px;
+  }
+  .intro h1,
+  .about h1,
+  .education h1,
+  .contact h1 {
+    font-size: 20px;
+  }
+  .about pre {
+    font-size: small;
+    text-align: left;
+  }
+  .main-image img {
+    width: 35vw;
+    padding: 2px;
+  }
+  .education {
+    height: 1200px;
+  }
+  header nav {
+    width: 50%;
+    padding-left: 90px;
+  }
+  nav ul li a {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .intro button {
+    padding: 9px 15px;
+    margin: 5px;
+    font-size: 10px;
+  }
+  .education {
+    height: 350px;
+  }
+  .education p {
+    font-size: 10px;
+  }
+  .education-div {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .div-1 {
+    bottom: 0px;
+    left: 10px;
+  }
+  .div-2 {
+    bottom: 0px;
+    left: 180px;
+  }
+
+  .education-div h3 {
+    font-size: 13px;
+  }
+  .education-div h4 {
+    font-size: 10px;
+  }
+  .education-div p {
+    width: 40%;
+  }
+  .contact .box input {
+    width: 30%;
+    padding: 9px 10px;
+    margin: 5px;
+    font-size: 6px;
+  }
+  .contact textarea {
+    width: 70vw;
+    height: 10vh;
+  }
 }
