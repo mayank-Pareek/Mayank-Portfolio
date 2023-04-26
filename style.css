@@ -45,17 +45,25 @@ nav ul li a:hover {
   color: #92c46c;
 }
 
-.container .main-flex {
+main {
   display: flex;
-  width: inherit;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 50px;
+  height: 60vh;
 }
-.main-flex {
-  flex-direction: column;
+
+.main-image {
+  /* padding-left: 150px; */
+  /* width: 100%; */
+  width: 22%;
+  height: 100%;
+  border-radius: 45%;
+  /* flex: 1; */
 }
+
 .intro {
-  padding: 40px 30px;
-  padding-left: 150px;
+  /* padding: 40px 30px; */
+  /* padding-left: 150px; */
 }
 .intro h1 {
   font-size: 60px;
@@ -79,14 +87,6 @@ span {
 }
 .intro button:hover {
   transform: scale(1.02);
-}
-.main-flex .main-image {
-  padding-left: 150px;
-  width: 100%;
-}
-.main-image img {
-  width: 300px;
-  border-radius: 45%;
 }
 
 .about {
@@ -226,7 +226,7 @@ span {
     margin-left: 0%;
     font-size: small;
   }
-  .container header {
+  nav {
     padding: 10px 60px;
   }
   .intro h1,
