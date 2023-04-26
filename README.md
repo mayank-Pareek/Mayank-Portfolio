@@ -19,7 +19,7 @@ My name is Mayank Kumar and I am a student at Seneca College. I pusuing an Advan
 
 ### Project 3: Portfolio Website
 - Designed and developed my personal portfolio website using HTML, CSS, and vanilla JavaScript
-- Included a contact form using PHP for server-side processing
+
 
 ## Contact Me
 
