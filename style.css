@@ -119,9 +119,8 @@ main {
 }
 
 .education {
-  position: relative;
   width: 100%;
-  height: 400px;
+  height: auto;
   padding: 70px 70px;
 }
 .education h1 {
@@ -141,9 +140,7 @@ main {
 
 .education-div {
   width: 350px;
-  height: 200px;
-  position: absolute;
-  z-index: 100;
+  height: auto;
   flex-direction: column;
   margin: 10px;
   border-radius: 20px;
@@ -226,6 +223,10 @@ main {
   font-weight: 600;
   cursor: pointer;
   text-align: center;
+}
+
+.flex {
+  display: flex;
 }
 
 @media screen and (max-width: 400px) {
