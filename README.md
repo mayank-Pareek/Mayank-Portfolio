@@ -1,6 +1,6 @@
 # Mayank Kumar's Portfolio
 
-This portfolio website showcases my projects, education, and contact information. It was built using HTML5, CSS3, and Vanilla JavaScript.
+This portfolio website showcases my projects, education, and contact information. It was built using HTML5, CSS3, and Vanilla JavaScript. To view the deployement [click here](https://mayank-pareek.github.io/Mayank-Portfolio/)
 
 ## About Me
 
