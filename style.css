@@ -44,7 +44,7 @@ hr {
   color: inherit; /*inherit from container*/
 }
 
-nav ul li a:hover {
+.nav--item > a:hover {
   color: #92c46c;
 }
 
@@ -175,9 +175,16 @@ main {
 @media screen and (max-width: 576px) {
   .nav--list {
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     padding: 0.5rem 0;
+    text-align: center;
+  }
+  .nav--item {
+    border-bottom: 1px solid #ffde59;
+    width: 100%;
+    font-size: large;
+  }
+  .nav--item:last-child {
+    border-bottom: none;
   }
   .main-image {
     display: none;
