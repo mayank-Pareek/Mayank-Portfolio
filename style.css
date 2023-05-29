@@ -107,7 +107,7 @@ main {
 
 .skills {
   width: 100%;
-  margin-top: 3rem;
+  margin: 3rem 0;
   padding: 1rem 0 2rem 0;
   text-align: center;
 }
@@ -125,14 +125,13 @@ main {
   align-items: center;
   flex-direction: column;
   width: 8rem;
-  padding: 1rem;
+  padding: 0.8rem;
   transition: all 0.3s;
   border-radius: 1rem;
   background-color: #f0f3ee;
 }
 
 .skills .icons-container > div > span {
-  /* font-size: 1re.3m; */
   color: black;
 }
 .skills .icons-container > div img {
@@ -160,9 +159,14 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  padding: 1rem 1rem;
+  padding: 1.2rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 1rem;
+  width: 30%;
+}
+
+.edu-card > h3 {
+  color: #92c46c;
 }
 
 .contact {
@@ -170,8 +174,8 @@ main {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.31);
   border-bottom: 1px solid rgba(255, 255, 255, 0.31);
-  padding-top: 30px;
-  padding-bottom: 70px;
+  /* padding-top: 30px;
+  padding-bottom: 70px; */
 }
 
 .contact h1 {
