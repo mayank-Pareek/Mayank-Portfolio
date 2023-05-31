@@ -188,23 +188,24 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 6px 12px rgba(7, 28, 9, 0.35);
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 .project-content {
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
 .project-title {
 }
 .project-text {
   text-align: left;
-  width: 80%;
+  width: 90%;
 }
 .project-buttons {
   justify-content: space-evenly;
+  margin-top:1rem;
   width: 50%;
 }
 
@@ -213,20 +214,12 @@ button:hover {
   font-size: 1rem;
 }
 .project-image {
-  max-width: 300px;
+  max-width: 45%;
 }
 .project-image > img {
-  /* max-width: 600px; */
   width: 100%;
+  height: 100%;
 }
-
-
-
-
-
-
-
-
 
 /* Responsive-Styling */
 @media screen and (max-width: 576px) {
