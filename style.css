@@ -172,6 +172,7 @@ main {
   display: flex;
 }
 
+
 @media screen and (max-width: 576px) {
   .nav--list {
     flex-direction: column;
