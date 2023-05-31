@@ -8,11 +8,17 @@
 
 body {
   background-color: #454343;
-  padding: 1%;
+  overflow-x: hidden;
 }
 
 .container {
   color: white;
+  text-align: center;
+  /* padding: 1rem; */
+}
+
+section {
+  padding: 1.5rem 2rem;
 }
 h2 {
   font-size: 3rem;
@@ -79,22 +85,22 @@ main {
 .main--btns {
   display: flex;
   justify-content: start;
+  font-size: 18px;
   gap: 20px;
 }
 
-.intro button {
+button {
   background-color: #92c46c;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 20px;
   box-shadow: 2px 2px 30px #0e0e0e79;
   font-weight: 600;
   border-radius: 50px;
   transition: all ease-out 0.2s;
 }
 
-.intro button:hover {
+button:hover {
   transform: scale(1.05);
 }
 
@@ -102,14 +108,12 @@ main {
   width: 100%;
   padding: 30px 50px;
   justify-content: center;
-  text-align: center;
 }
 
 .skills {
   width: 100%;
   margin: 3rem 0;
   padding: 1rem 0 2rem 0;
-  text-align: center;
 }
 .skills .icons-container {
   display: grid;
@@ -145,7 +149,6 @@ main {
 
 .education {
   padding: 2rem;
-  text-align: center;
 }
 
 .edu-cards {
@@ -172,7 +175,60 @@ main {
   display: flex;
 }
 
+.project-wrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
 
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 12px rgba(7, 28, 9, 0.35);
+  border-radius:5px;
+}
+
+.project-content {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.project-title {
+}
+.project-text {
+  text-align: left;
+  width: 80%;
+}
+.project-buttons {
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.project-buttons > button {
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.project-image {
+  max-width: 300px;
+}
+.project-image > img {
+  /* max-width: 600px; */
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive-Styling */
 @media screen and (max-width: 576px) {
   .nav--list {
     flex-direction: column;
