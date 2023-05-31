@@ -85,8 +85,10 @@ main {
 .main--btns {
   display: flex;
   justify-content: start;
-  font-size: 18px;
   gap: 20px;
+}
+.main--btns>a,button {
+  font-size: 18px;
 }
 
 button {
@@ -180,6 +182,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  gap: 4rem;
 }
 
 .project {
@@ -205,7 +208,7 @@ button:hover {
 }
 .project-buttons {
   justify-content: space-evenly;
-  margin-top:1rem;
+  margin-top: 1rem;
   width: 50%;
 }
 
